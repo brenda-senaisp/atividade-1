@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    border: 0;
+    background: none;
+}
+
+h1, p, h3{
+    font-family: 'Montserrat';
+    font-size: medium;
+}
+.barraAmarela{
+    width: auto;
+    height: 50px;
+    background-color: #F9B303;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+h3{
+    font-size: 25px;
+    padding: 20px;
+}
+.comidas{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: fcenter;
+    
+
+}
+.comida1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.comida1{
+    background: none;
+    transition: all 0.3s ease-in-out;
+}
+.comida1:hover{
+        transform: scale(1.1);
+      }
+.comida2{
+    transition: all 0.3s ease-in-out;
+}
+.comida2:hover{
+    transform: scale(1.1);
+}
+.comida2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.suco{
+    background: none;
+    transition: all 0.3s ease-in-out;
+}
+.suco:hover{
+    transform: scale(1.1);
+}
+.sobremesa{
+    background: none;
+    transition: all 0.3s ease-in-out ;
+}
+.sobremesa:hover{
+    transform: scale(1.1);
+}
+.linha{
+    background-color: black;
+    width: 230px;
+    height: 1px;
+    margin: 10px;
+}
+.cardapio{
+    margin: 20px;
+}
