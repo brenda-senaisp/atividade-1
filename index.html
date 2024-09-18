@@ -49,13 +49,13 @@
    <h3>Seu cardápio do dia é: </h3>
    <div class="linha"></div>
  <section id="resultado">
-   <p>Prato principal: </p>
+   <p>Prato principal... </p>
 </section>
 <section id="resultado2">
-   <p>Bebida: </p>
+   <p>Bebida... </p>
 </section>
 <section id="resultado3">
-   <p>Sobremesa: </p>
+   <p>Sobremesa... </p>
 </section>
 </div>
 <div class="barraAmarela"></div>
@@ -65,26 +65,26 @@
       let opcao = ('Pão com manteiga')
       window.alert(`você escolheu a opção 'Pão com manteiga'`)
       let res = window.document.getElementById('resultado')
-       res.innerHTML = `<p><strong> ${quantidade} ${opcao}!</strong>`
+       res.innerHTML = `<p>Prato principal: <strong> ${quantidade} ${opcao}!</strong>`
    }
    function queijo(){
       let quantidade = window.prompt('Você gostaria de 1 ou 2 dos alimentos mostrados a baixo?')
       let opcao = ('Pão de queijo')
       window.alert(`você escolheu a opção 'Pão de queijo'`)
       let res = window.document.getElementById('resultado')
-       res.innerHTML = `<p><strong> ${quantidade} ${opcao}!</strong>`  
+       res.innerHTML = `<p>Prato principal: <strong> ${quantidade} ${opcao}!</strong>`  
    }
    function suco(){
       let opcao = ('Suco de laranja')
       window.alert(`você escolheu a opção 'Suco de Laranja'`)
       let res = window.document.getElementById('resultado2')
-       res.innerHTML = `<p><strong>${opcao}!</strong>`  
+       res.innerHTML = `<p>Bebida: <strong>${opcao}!</strong>`  
    }
    function sobremesa(){
       let opcao = ('BomBom')
       window.alert(`você escolheu a opção 'BomBom'`)
       let res = window.document.getElementById('resultado3')
-       res.innerHTML = `<p><strong>${opcao}!</strong>`  
+       res.innerHTML = `<p>Sobremesa: <strong>${opcao}!</strong>`  
        }
  </script>
 </body>
